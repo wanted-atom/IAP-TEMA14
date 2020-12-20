@@ -1,0 +1,27 @@
+.preview {
+    position: absolute;
+    top: 15vh;
+
+}
+
+.activities-grid-item::before {
+    background-color: transparent;
+    background-image: none;
+
+}
+
+.form-upload {
+    height: content-box;
+    background-color: #fafafa;
+    opacity: .8;
+}
+
+.preview h1 {
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.preview label {
+    color: black;
+}

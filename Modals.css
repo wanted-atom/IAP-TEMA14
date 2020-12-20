@@ -1,0 +1,80 @@
+.upload {
+    display: none;
+    position: absolute;
+    top: 20vh;
+    left: 20%;
+    width: 60%;
+    border-radius: 1rem;
+    z-index: 1100;
+}
+
+.form-upload {
+    width: 100%;
+    background-color: rgba(245, 245, 220, .8);
+}
+
+.upload h1 {
+    display: block;
+    text-align: center;
+    font-size: 2.7rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+    opacity: 1;
+}
+
+.form-upload input, .form-upload label {
+    display: inline-block;
+    width: 40%;
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    background: transparent;
+}
+
+.form-upload label {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+.form-upload input {
+    text-align: center;
+    border-bottom: 2px solid rgba(207, 60, 86, 1);
+}
+
+.form-upload input:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+.form-upload .btn {
+    margin-left: 10%;
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    opacity: .6;
+}
+
+.form-upload .cancel {
+    margin-left: 0;
+    background-color: lightcoral;
+}
+
+.form-upload .btn:hover {
+    opacity: 1;
+}
+
+.form-btn .first {
+    margin-left: 5%;
+}
+
+.form-btn .btn {
+    width: 30%;
+}
